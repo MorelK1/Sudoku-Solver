@@ -34,14 +34,14 @@ def make3x3Grid(row, column, bgcolor):
 
 
 def make9x9Grid():
-    color = "#D0ffff"
+    color = "#D4E6F1"
     for rowNo in range(1, 10, 3):
         for colNo in range(0, 9, 3):
             make3x3Grid(rowNo, colNo, color)
-            if color == "#D0ffff":
-                color = "#ffffD0"
+            if color == "#D4E6F1":
+                color = "#F7DC6F"
             else:
-                color = "#D0ffff"
+                color = "#D4E6F1"
 
 
 def clearValues():
