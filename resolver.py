@@ -31,7 +31,7 @@ def isValid(grille, position):
         return True
 
     # on recupere les coordonnees de la case
-    i = position / 9
+    i = position // 9
     j = position % 9
 
     # si la case n'est pas vide, on passe a la suivante(appel recursif)
