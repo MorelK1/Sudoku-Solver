@@ -1,7 +1,8 @@
 # Sudoku-Solver
 Programme de resolution de sudoku
 
-![sudoku](https://user-images.githubusercontent.com/104862002/182143892-12f9874c-d83a-49c3-a6cc-949d701e3160.png)
+![sd](https://user-images.githubusercontent.com/104862002/182202143-b59cb059-8c6c-4f06-bf5e-48ea2aa21b91.png)
+
 
 Juste un petit programme Python pour resoudre une grille de sudoku 9x9.
 
