@@ -34,7 +34,7 @@ def isValid(grille, position):
     i = position // 9
     j = position % 9
 
-    # si la case n'est pas vide, on passe a la suivante(appel recursif)
+    # si la case n'est pas vide, on passe à la suivante(appel recursif)
     if grille[i][j] != 0:
         return isValid(grille, position + 1)
 
